@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <!-- <script src="script.js" defer></script> -->
+    <title>Sign Up</title>
+</head>
+<body class="bg-[#A1E3F9] min-h-screen">
+    <nav class="flex flex-col sm:flex-row items-center justify-between pt-2 pb-2 font-semibold top-0 w-full z-50 backdrop-blur text-black">
+        <a class="hover:bg-[#578FCA] px-5 ml-2 text-2xl font-cherry hover:rounded-3xl font-serif" href="index.html" id="home">SkillFusion</a>
+        <button class="hover:bg-[#578FCA] hover:rounded-3xl px-5">All Skills</button>
+        <button class="hover:bg-[#578FCA] hover:rounded-3xl px-5">About</button>
+        <button class="hover:bg-[#578FCA] hover:rounded-3xl px-5">Enquire</button>
+        <form class="pl-5 mr-2">
+            <input type="text" placeholder="Search..." class="p-2 bg-[#578FCA] rounded">
+        </form>
+    </nav>
+
+  <div class="card w-96 shadow-xl text-center mt-0 sm:mt-28 sm:ml-96 bg-[#3674B5]">
+    <div class="card-body">
+      <h2 class="card-title justify-center w-full p-3 text-black">Create a new Account</h2>
+      <form>
+        <input type="text" placeholder="example@gmail.com" class="rounded p-2 my-2 text-center bg-gray-200">
+        <input type="text" placeholder="Create a Password" class="rounded p-2 my-2 text-center bg-gray-200">
+      </form>
+      <div class="flex w-full">
+        <div class="tooltip" data-tip="Sign up with email address and create a password">
+          <button class="card rounded-box grid h-16 flex-grow place-items-center bg-[#A1E3F9] hover:bg-[#578FCA] p-5 text-black">Sign Up</button>
+        </div>
+        <div class="divider divider-horizontal">or</div>
+        <div class="tooltip" data-tip="Sign up with your Google Account">
+          <button class="card rounded-box grid h-16 flex-grow place-items-center bg-[#A1E3F9] hover:bg-[#578FCA] p-4 text-black">Sign in with Google</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

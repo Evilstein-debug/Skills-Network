@@ -1,0 +1,89 @@
+.main-section {
+  background-color: #A1E3F9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 649.4px;
+  border: 2px;
+  border-style: solid;
+  border-color: transparent;
+  background-color: white;
+  box-shadow: 0px 0px 30px 0;
+  font-style: Arial;
+  border-radius: 1.5rem;
+}
+
+.profile-picture {
+  width: 40px;
+  border-radius: 100%;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.author {
+  font-family:Roboto, Arial;
+  font-weight: bold;
+}
+
+.post1-img {
+  width: 42vw;
+  height: 300px;
+}
+
+.post-text {
+  font-family: Roboto, Arial;
+}
+
+.pt {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.reactions {
+  display: flex;
+  flex-direction: row;
+}
+
+.reactions {
+  height: 50px;
+}
+
+.comment-bar {
+  width: 40vw;
+  border-radius: 15px;
+}
+
+.like {
+  border-radius: 100%;
+  width: 5vw;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.share {
+  border-radius: 100%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.likeb {
+  width: 4vw;
+  height: 40px
+}
+
+.shareb {
+  width: 4vw;
+  height: 40px;
+  border-radius: 100%;
+}
